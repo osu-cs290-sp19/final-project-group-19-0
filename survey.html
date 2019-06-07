@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>SURVEY - FINAL PROJECT</title>
+
+    <!-- This is a 3rd-party stylesheet to make available the font family to be used for this page ("Roboto"). -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+
+    <!-- This 3rd-party stylesheet incorporates SVG icons from Font Awesome: http://fontawesome.com/ -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/style.css" media="screen">
+
+    <script src="/index.js" charset="utf-8" defer></script>
+    <script src="/twitTemplate.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.runtime.js"></script>
+
+  </head>
+
+  <header>
+      <!-- The <i> tag below includes the bullhorn icon from Font Awesome -->
+      <a href="#"><h1 class="site-title"><i class="far fa-hand-lizard"></i> SURVEY</h1></a>
+
+      <img src="ferret-heat.jpg" alt="FERRET BOI">
+
+      <nav class="navbar">
+        <ul class="navlist">
+          <li class="navitem navlink active"><a href="#">CREATE SURVEY</a></li>
+        </ul>
+      </nav>
+
+  </header>
+
+  <main class="survey-container">
+
+  	<article class="survey">
+
+	  		<div class="survey-icon">
+	          <i class="fas fa-check"></i>
+	        </div>
+
+	        <div class="survey-title">
+	          <p class="question-text">
+	            First
+	          </p>
+                
+	        </div>
+
+	        <div class="survey-question">
+	          <p class="question-text">
+	            would you
+	          </p>
+                <input type="radio" name="Q1" value=1>YES
+                <input type="radio" name="Q1" value=1>NO
+	        </div>
+
+	        <div class="survey-question">
+	          <p class="question-text">
+	            could you
+	          </p>
+                <input type="radio" name="Q2" value=1>YES
+                <input type="radio" name="Q2" value=1>NO
+	        </div>
+        	        <div class="survey-question">
+	          <p class="question-text">
+	            should you
+	          </p>
+                <p><input type="radio" name="Q3" value=1>YES
+                <input type="radio" name="Q3" value=1>NO       
+	           </p>    
+            </div>
+        	        <div class="survey-question">
+	          <p class="question-text">
+	            did you
+	          </p>
+                <input type="radio" name="Q4" value=1>YES
+                <input type="radio" name="Q4" value=1>NO      
+	        </div>
+        	        <div class="survey-question">
+	          <p class="question-text">
+	            have you
+	          </p>
+                <input type="radio" name="Q5" value=1>YES
+                <input type="radio" name="Q5" value=1>NO     
+	        </div>
+        
+        <input type=submit value="SUBMIT">
+
+        
+  	</article>
+
+  </main>
+
+</html>
