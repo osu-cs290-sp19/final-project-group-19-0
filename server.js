@@ -7,7 +7,7 @@ var exphbs = require('express-handlebars')
 var app = express();
 var port = process.env.PORT || 3000;
 
-var surveyData = require('./altData');
+var surveyData = require('./surveyData');
 console.log("== surveyData", surveyData);
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
@@ -16,18 +16,24 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
 
-app.get('/', function (req, res, next) {
-  
-  args = {
-
-  	data: surveyData
-
-  }
-
-  res.status(200).render('surveyPage', args);
 
 
+app.get('/', function(req,res) {
+	/*var person = req.params.person.toLowerCase();
+  	if (surveyData[person]) {
+    	res.status(200).render('surveyPage', surveyData[person]);
+    // res.status(200).sendFile(
+    //   __dirname + '/public/people/' + person + '.html'
+    // );
+  	} else {
+    	next();
+  	}*/
+	var args = {
+		data: surveyData[0]
+	}
+	res.status(200).render('surveyPage',args);
 });
+
 
 /*
 app.get('*', function (req, res) {

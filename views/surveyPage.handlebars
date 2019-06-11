@@ -1,11 +1,10 @@
 <main class="survey-container">
-
-	<article class="survey">
-
-	        {{#each data}}
-	        	{{>surveyQuestion}}
-	        {{/each}}
-
-  	</article>
-
+	<div class="title-container">
+		<h1>{{title}}</h1>
+	</div>
+	<div class="questions-container">
+		{{#each data}}
+			{{>surveyQuestion}}
+		{{/each}}
+	</div>
 </main>
