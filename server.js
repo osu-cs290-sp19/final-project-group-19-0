@@ -7,8 +7,8 @@ var exphbs = require('express-handlebars')
 var app = express();
 var port = process.env.PORT || 3000;
 
-var surveyData = require('./SurveyData');
-console.log("== SurveyData", surveyData);
+var surveyData = require('./surveyData');
+console.log("== surveyData", surveyData);
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
