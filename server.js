@@ -7,7 +7,7 @@ var exphbs = require('express-handlebars')
 var app = express();
 var port = process.env.PORT || 3000;
 
-var surveyData = require('./surveyData');
+var surveyData = require('./altData');
 console.log("== surveyData", surveyData);
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
@@ -17,7 +17,16 @@ app.use(express.static('public'));
 
 
 app.get('/', function (req, res, next) {
-  res.status(200).render('surveyPage');
+  
+  args = {
+
+  	data: surveyData
+
+  }
+
+  res.status(200).render('surveyPage', args);
+
+
 });
 
 /*
