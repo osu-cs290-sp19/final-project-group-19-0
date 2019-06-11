@@ -1,32 +1,10 @@
+[
+    [
 {
-    "survey":{
-        "title":"first",
-        "questions":[
-            {
-                "text": "would you",
-                "yes": "5",
-                "no": "5"
-            },
-            {
-                "text": "could you",
-                "yes": "3",
-                "no": "7"
-            },
-            {
-                "text": "should you",
-                "yes": "8",
-                "no": "2"
-            },
-            {
-                "text": "did you",
-                "yes": "6",
-                "no": "4"
-            },
-            {
-                "text": "have you",
-                "yes": "9",
-                "no": "1"
-            }  
-        ]      
-    }
+    "title":"sssss"
 }
+],
+[{
+    "title":"xxxx"
+}]
+]

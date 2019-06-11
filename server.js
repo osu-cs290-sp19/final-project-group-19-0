@@ -16,9 +16,24 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
 
-app.get('/', function (req, res, next) {
-  res.status(200).render('surveyPage');
+
+
+app.get('/', function(req,res) {
+	/*var person = req.params.person.toLowerCase();
+  	if (surveyData[person]) {
+    	res.status(200).render('surveyPage', surveyData[person]);
+    // res.status(200).sendFile(
+    //   __dirname + '/public/people/' + person + '.html'
+    // );
+  	} else {
+    	next();
+  	}*/
+	var args = {
+		data: surveyData[0]
+	}
+	res.status(200).render('surveyPage',args);
 });
+
 
 /*
 app.get('*', function (req, res) {
