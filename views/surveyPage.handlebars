@@ -6,7 +6,9 @@
 	<article class="survey">
 		<div class="questions-container">
 			{{#each questions}}
-				{{>surveyQuestion}}
+			    <p class="question-text">
+        			{{q}}
+        		</p>
 			{{/each}}
 		</div>
 	</article>

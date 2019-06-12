@@ -5,9 +5,8 @@
 				<h1>{{title}}</h1>
 			</div>
 			<div class="questions-container">
-				{{#each questions}}
-					{{>surveyQuestion}}
-				{{/each}}
+				{{questions.0.q}}
+				{{questions.1.q}}
 		</div>
 		{{/each}}
 	</article>
