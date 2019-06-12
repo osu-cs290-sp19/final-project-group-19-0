@@ -2,9 +2,11 @@
 	<div class="title-container">
 		<h1>{{title}}</h1>
 	</div>
-	<div class="questions-container">
-		{{#each data}}
-			{{>surveyQuestion}}
-		{{/each}}
-	</div>
+	<article class="survey">
+		<div class="questions-container">
+			{{#each questions}}
+				{{>surveyQuestion}}
+			{{/each}}
+		</div>
+	</article>
 </main>

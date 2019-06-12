@@ -28,10 +28,8 @@ app.get('/', function(req,res) {
   	} else {
     	next();
   	}*/
-	var args = {
-		data: surveyData[0]
-	}
-	res.status(200).render('surveyPage',args);
+
+	res.status(200).render('surveyPage',surveyData["1"]);
 });
 
 
