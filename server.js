@@ -45,6 +45,7 @@ app.get('/:num', function(req,res) {
     }*/
     var num = req.params.num.toLowerCase();
     num = parseInt(num,10);
+    num--;
     res.status(200).render('surveyPage',surveyData["surveys"][num]);
 });
 
