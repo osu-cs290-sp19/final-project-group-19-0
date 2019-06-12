@@ -7,6 +7,7 @@ var exphbs = require('express-handlebars')
 var app = express();
 var port = process.env.PORT || 3000;
 
+
 var surveyData = require('./surveyData');
 console.log("== surveyData", surveyData);
 
@@ -29,7 +30,22 @@ app.get('/', function(req,res) {
     	next();
   	}*/
 
-	res.status(200).render('surveyPage',surveyData["1"]);
+	res.status(200).render('homePage',surveyData);
+});
+
+app.get('/:num', function(req,res) {
+  /*var person = req.params.person.toLowerCase();
+    if (surveyData[person]) {
+      res.status(200).render('surveyPage', surveyData[person]);
+    // res.status(200).sendFile(
+    //   __dirname + '/public/people/' + person + '.html'
+    // );
+    } else {
+      next();
+    }*/
+    var num = req.params.num.toLowerCase();
+    num = parseInt(num,10);
+    res.status(200).render('surveyPage',surveyData["surveys"][num]);
 });
 
 

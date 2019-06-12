@@ -22,7 +22,9 @@
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "handlebar": "^1.0.0",
-    "handlebars": "^4.1.2"
+    "handlebars": "^4.1.2",
+    "kerberos": "~0.017",
+    "mongodb":"~2.0.33"
   },
   "devDependencies": {}
 }

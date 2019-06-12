@@ -1,0 +1,14 @@
+<main class="survey-container">
+	<article class="survey">
+		{{#each surveys}}
+			<div class="title-container">
+				<h1>{{title}}</h1>
+			</div>
+			<div class="questions-container">
+				{{#each questions}}
+					{{>surveyQuestion}}
+				{{/each}}
+		</div>
+		{{/each}}
+	</article>
+</main>
