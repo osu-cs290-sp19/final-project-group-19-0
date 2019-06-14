@@ -55,7 +55,10 @@ a {
 
   background-color: #F2F2F3;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
+
+
 
 a {
   color: #343434;

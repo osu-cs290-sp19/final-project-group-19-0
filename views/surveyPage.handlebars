@@ -1,16 +1,20 @@
 
 <main class="survey-container">
-	<div class="title-container">
-		<h1>{{title}}</h1>
-	</div>
 	<article class="survey">
+		<div class="title-container">
+			<h1>{{title}}</h1>
+		</div>
 		<div class="questions-container">
 			{{#each questions}}
 			    <p class="question-text">
         			{{q}}
         		</p>
+        		<p class="options">
         		<input type="radio" name="Q1" value=1>YES
+        		</p>
+        		<p class"options">
                 <input type="radio" name="Q1" value=1>NO
+                </p>
 			{{/each}}
 		</div>
 	</article>
