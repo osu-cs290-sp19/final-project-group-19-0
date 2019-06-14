@@ -33,7 +33,7 @@ app.get('/', function(req,res) {
 	res.status(200).render('homePage',surveyData);
 });
 
-app.get('/:num', function(req,res) {
+app.get('/:num', function(req,res,next) {
   /*var person = req.params.person.toLowerCase();
     if (surveyData[person]) {
       res.status(200).render('surveyPage', surveyData[person]);
@@ -43,18 +43,53 @@ app.get('/:num', function(req,res) {
     } else {
       next();
     }*/
+
+    console.log("== Data Length: ",surveyData["surveys"].length);
     var num = req.params.num.toLowerCase();
     num = parseInt(num,10);
     num--;
-    res.status(200).render('surveyPage',surveyData["surveys"][num]);
+
+    if(num >= 0 && num < surveyData["surveys"].length){
+
+      res.status(200).render('surveyPage',surveyData["surveys"][num]);
+    }
+    else{
+      next();
+    }
+});
+
+app.get('/results/:num', function(req,res,next) {
+  /*var person = req.params.person.toLowerCase();
+    if (surveyData[person]) {
+      res.status(200).render('surveyPage', surveyData[person]);
+    // res.status(200).sendFile(
+    //   __dirname + '/public/people/' + person + '.html'
+    // );
+    } else {
+      next();
+    }*/
+
+    console.log("== Data Length: ",surveyData["surveys"].length);
+    var num = req.params.num.toLowerCase();
+    num = parseInt(num,10);
+    num--;
+
+    if(num >= 0 && num < surveyData["surveys"].length){
+
+      res.status(200).render('resultPage',surveyData["surveys"][num]);
+
+    }
+    else{
+      next();
+    }
 });
 
 
-/*
+
 app.get('*', function (req, res) {
   res.status(404).render('404');
 });
-*/
+
 
 /*
 app.get('*', function (req, res) {

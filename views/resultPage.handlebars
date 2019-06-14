@@ -1,0 +1,20 @@
+<main class="survey-container">
+	<article class="survey">
+		<div class="title-container">
+			<h1>{{title}}</h1>
+		</div>
+		<div class="questions-container">
+			{{#each questions}}
+			    <p class="question-text">
+        			{{q}}
+        		</p>
+        		<p class="question-yes">
+        			{{y}}
+        		</p>
+        		<p class="question-no">
+        			{{n}}
+        		</p>
+			{{/each}}
+		</div>
+	</article>
+</main>

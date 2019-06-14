@@ -1,5 +1,4 @@
-
-<main class="survey-container">
+<main class="survey-container1">
 	<article class="survey">
 		<div class="title-container">
 			<h1>{{title}}</h1>
@@ -9,13 +8,16 @@
 			    <p class="question-text">
         			{{q}}
         		</p>
+        		<div class="options-container">
         		<p class="options">
-        		<input type="radio" name="Q1" value=1>YES
+        		<input type="radio" name={{q}} value=1>YES
         		</p>
         		<p class"options">
-                <input type="radio" name="Q1" value=1>NO
+                <input type="radio" name={{q}} value=2>NO
                 </p>
+                </div>
 			{{/each}}
 		</div>
 	</article>
+		<button type="button" id="submit-survey-button">Submit Survey</button>
 </main>
