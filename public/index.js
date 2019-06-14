@@ -7,6 +7,9 @@ var modalCloseBtn = document.getElementsByClassName('modal-close-button')[0];
 var modalBtn = document.getElementById('create-survey-button');
 var cancelBtn = document.getElementsByClassName('modal-cancel-button')[0];
 var acceptBtn = document.getElementsByClassName('modal-accept-button')[0];
+//var submitBtn = document.getElementById('submit-survey-button');
+//var options = document.getElementsByClassName('options-container')[0];
+//var results = document.getElementsByClassName('results-container')[0];
 
 var surveyTitle = document.getElementById("survey-title-input");
 var question1 = document.getElementById("survey-q1-input");
@@ -15,10 +18,21 @@ var question3 = document.getElementById("survey-q3-input");
 var question4 = document.getElementById("survey-q4-input");
 var question5 = document.getElementById("survey-q5-input");
 
+
+
+
+//submitBtn.addEventListener('click',submit);
 modalBtn.addEventListener('click', openModal);
 modalCloseBtn.addEventListener('click', closeModal);
 cancelBtn.addEventListener('click', closeModal);
 acceptBtn.addEventListener('click', createSurvey);
+/*
+function submit(){
+    console.log("this");
+    options.style.display  = "none";
+    results.style.display = "block";
+
+}*/
 
 function openModal(){
 
