@@ -65,6 +65,19 @@ a {
   flex-wrap: wrap;
 }
 
+.question-text {
+  font-weight: 800;  
+}
+
+.question-yes {
+  color: green;
+}
+
+.question-no {
+  color: red;
+}
+
+
 .results-container {
   display:none;
   color: #404040;
