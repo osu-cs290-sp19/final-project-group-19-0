@@ -22,7 +22,7 @@
 	},
     {
         "title":"Survey 1",
-        "url":"./1",
+        "url":"./2",
         "questions":[
         {
             "q":"question1"
@@ -43,7 +43,7 @@
     },
     {
         "title":"Survey 1",
-        "url":"./1",
+        "url":"./3",
         "questions":[
         {
             "q":"question1"
@@ -64,7 +64,7 @@
     },    
 	{
 		"title":"Survey 2",
-        "url":"./1",
+        "url":"./4",
 		"questions":[
 		{
 			"q":"question1"
