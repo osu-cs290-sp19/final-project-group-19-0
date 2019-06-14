@@ -1,6 +1,7 @@
 {"surveys":[
 	{
 		"title":"Survey 1",
+        "url":"./1",
 		"questions":[
 		{
 			"q":"question1"
@@ -20,7 +21,8 @@
 		]
 	},
     {
-        "title":"Survey 1",
+        "title":"Survey 2",
+        "url":"./2",
         "questions":[
         {
             "q":"question1"
@@ -40,7 +42,8 @@
         ]
     },
     {
-        "title":"Survey 1",
+        "title":"Survey 3",
+        "url":"./3",
         "questions":[
         {
             "q":"question1"
@@ -60,7 +63,8 @@
         ]
     },    
 	{
-		"title":"Survey 2",
+		"title":"Survey 4",
+        "url":"./4",
 		"questions":[
 		{
 			"q":"question1"
@@ -76,6 +80,7 @@
 		},
 		{
 			"q":"question5"
-		}]
+		}
+        ]
 	}
 ]}
