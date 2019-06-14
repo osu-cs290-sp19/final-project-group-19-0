@@ -59,7 +59,7 @@ a {
 
 
 .navbar {
-  background-color: #BEBEC1;
+  background-color: #343434;
   font-size: 18px;
   line-height: 22px;
 }
@@ -140,6 +140,7 @@ a:focus {
 }
 
 .survey {
+  flex-wrap: wrap;
   flex: 0 1 28%;
   display: flex;
   margin: 2px;
@@ -147,6 +148,11 @@ a:focus {
   border: 1px solid #dadada;
   border-radius: 2px;
   background-color: #fff;
+}
+
+.question-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .survey-icon {
