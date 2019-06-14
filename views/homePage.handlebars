@@ -2,8 +2,8 @@
 	{{>modal}}
 </body>
 <main class="survey-container">
+	{{#each surveys}}
 	<article class="survey">
-		{{#each surveys}}
 			<div class="title-container">
 				<h1>{{title}}</h1>
 			</div>
@@ -11,6 +11,6 @@
 				{{questions.0.q}}
 				{{questions.1.q}}
 		</div>
-		{{/each}}
 	</article>
+	{{/each}}
 </main>
