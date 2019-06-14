@@ -133,13 +133,13 @@ a:focus {
   outline: none;
 }
 
-.twit-container {
+.survey-container {
   margin: 50px 10%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.twit {
+.survey {
   flex: 0 1 28%;
   display: flex;
   margin: 2px;
@@ -149,20 +149,20 @@ a:focus {
   background-color: #fff;
 }
 
-.twit-icon {
+.survey-icon {
   font-size: 24px;
 }
 
-.twit-content {
+.survey-content {
   flex: 1 1 80%;
   margin-left: 10px;
 }
 
-.twit-content p {
+.survey-content p {
   margin: 0;
 }
 
-.twit-content .twit-author {
+.survey-content .survey-author {
   margin-top: 8px;
   text-align: right;
   font-weight: bold;
@@ -198,7 +198,7 @@ a:focus {
   background-color: #9D9D9E;
 }
 
-#create-twit-button:focus {
+#create-survey-button:focus {
   outline: none;
 }
 
@@ -212,7 +212,7 @@ a:focus {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-#create-twit-modal {
+#create-survey-modal {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -261,28 +261,28 @@ a:focus {
   padding: 20px;
 }
 
-.twit-input-element {
+.survey-input-element {
   display: flex;
   align-items: center;
   font-size: 20px;
   margin: 10px 0;
 }
 
-.twit-input-element label {
+.survey-input-element label {
   font-weight: 600;
   flex: 1 75px;
   margin-right: 10px;
 }
 
-.twit-input-element input,
-.twit-input-element textarea {
+.survey-input-element input,
+.survey-input-element textarea {
   flex: 6 200px;
   padding: 8px;
   font-size: 20px;
   border: 1px solid #aaa;
 }
 
-.twit-input-element textarea {
+.survey-input-element textarea {
   min-height: 64px;
 }
 
