@@ -43,13 +43,13 @@ app.get('/:num', function(req,res,next) {
     } else {
       next();
     }*/
-    
+
     console.log("== Data Length: ",surveyData["surveys"].length);
     var num = req.params.num.toLowerCase();
     num = parseInt(num,10);
     num--;
 
-    if(num >= 1 && num < surveyData["surveys"].length){
+    if(num >= 0 && num < surveyData["surveys"].length){
 
       res.status(200).render('surveyPage',surveyData["surveys"][num]);
     }
@@ -74,7 +74,7 @@ app.get('/results/:num', function(req,res,next) {
     num = parseInt(num,10);
     num--;
 
-    if(num >= 1 && num < surveyData["surveys"].length){
+    if(num >= 0 && num < surveyData["surveys"].length){
 
       res.status(200).render('resultPage',surveyData["surveys"][num]);
 
