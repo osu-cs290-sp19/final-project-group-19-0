@@ -3,14 +3,14 @@
 </body>
 <main class="survey-container">
 	{{#each surveys}}
-	<article class="survey">
-			<div class="title-container">
-				<a href={{url}}>{{title}}</a>
+		<article class="survey">
+				<div class="title-container">
+					<a href={{url}}>{{title}}</a>
+				</div>
+				<div class="questions-container">
+					{{questions.0.q}}
+					{{questions.1.q}}
 			</div>
-			<div class="questions-container">
-				{{questions.0.q}}
-				{{questions.1.q}}
-		</div>
-	</article>
+		</article>
 	{{/each}}
 </main>
