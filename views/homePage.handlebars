@@ -5,12 +5,12 @@
 	<article class="survey">
 		{{#each surveys}}
 			<div class="title-container">
-				<h1>{{title}}</h1>
+				<a href={{url}}>{{title}}</a>
 			</div>
 			<div class="questions-container">
 				{{questions.0.q}}
 				{{questions.1.q}}
-		</div>
+			</div>
 		{{/each}}
 	</article>
 </main>
