@@ -1,6 +1,7 @@
 {"surveys":[
 	{
 		"title":"Survey 1",
+        "url":"./1",
 		"questions":[
 		{
 			"q":"question1"
@@ -21,6 +22,7 @@
 	},
     {
         "title":"Survey 1",
+        "url":"./1",
         "questions":[
         {
             "q":"question1"
@@ -37,10 +39,11 @@
         {
             "q":"question5"
         }
-        ],
+        ]
     },
     {
         "title":"Survey 1",
+        "url":"./1",
         "questions":[
         {
             "q":"question1"
@@ -61,6 +64,7 @@
     },    
 	{
 		"title":"Survey 2",
+        "url":"./1",
 		"questions":[
 		{
 			"q":"question1"
