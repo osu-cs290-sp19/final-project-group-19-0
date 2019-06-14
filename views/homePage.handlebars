@@ -2,15 +2,15 @@
 	{{>modal}}
 </body>
 <main class="survey-container">
+	{{#each surveys}}
 	<article class="survey">
-		{{#each surveys}}
 			<div class="title-container">
 				<a href={{url}}>{{title}}</a>
 			</div>
 			<div class="questions-container">
 				{{questions.0.q}}
 				{{questions.1.q}}
-			</div>
-		{{/each}}
+		</div>
 	</article>
+	{{/each}}
 </main>
