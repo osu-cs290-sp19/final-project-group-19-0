@@ -38,3 +38,17 @@ function closeModal(){
     modalBackdrop.classList.add('hidden');
 
 }
+
+function createSurvey(){
+
+	if ((surveyTitle.value == "") || (question1.value == "") || question2.value == "") || question3.value == "") || question4.value == "") || question5.value == "")) {
+
+    	alert("Survey is incomplete!!!");
+    	return;
+
+  	}
+
+}
+
+
+
