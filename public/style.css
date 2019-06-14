@@ -140,6 +140,7 @@ a:focus {
 }
 
 .survey {
+  flex-wrap: wrap;
   flex: 0 1 28%;
   display: flex;
   margin: 2px;
