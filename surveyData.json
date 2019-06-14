@@ -1,6 +1,6 @@
 {"surveys":[
 	{
-		"title":"Food Survey: Fruits",
+		"title":"Food Survey",
         "url":"./1",
         "result-url":"./results/1",
 		"questions":[
