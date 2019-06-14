@@ -16,8 +16,9 @@ var question4 = document.getElementById("survey-q4-input");
 var question5 = document.getElementById("survey-q5-input");
 
 modalBtn.addEventListener('click', openModal);
+modalCloseBtn.addEventListener('click', closeModal);
 cancelBtn.addEventListener('click', closeModal);
-acceptBtn.addEventListener('click', openModal);
+acceptBtn.addEventListener('click', createSurvey);
 
 function openModal(){
 
@@ -41,7 +42,7 @@ function closeModal(){
 
 function createSurvey(){
 
-	if ((surveyTitle.value == "") || (question1.value == "") || question2.value == "") || question3.value == "") || question4.value == "") || question5.value == "")) {
+	if ((surveyTitle.value == "") || (question1.value == "") || (question2.value == "") || (question3.value == "") || (question4.value == "") || (question5.value == "")) {
 
     	alert("Survey is incomplete!!!");
     	return;
