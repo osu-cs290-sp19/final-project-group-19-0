@@ -1,25 +1,34 @@
 {"surveys":[
 	{
-		"title":"Survey 1",
+		"title":"Food Survey: Fruits",
         "url":"./1",
         "result-url":"./results/1",
 		"questions":[
 		{
-			"q":"question1",
-            "y":52,
-            "n":63
+			"q":"Are you a fan of nanners?",
+            "y":22,
+            "n":2
 		},
 		{
-			"q":"question2"
+			"q":"What about apples?",
+            "y":18,
+            "n":4
+
 		},
 		{
-			"q":"question3"
+			"q":"Do you like oranges?",
+            "y":17,
+            "n":7
 		},
 		{
-			"q":"question4"
+			"q":"Are tomatos a fruit?",
+            "y":0,
+            "n":24
 		},
 		{
-			"q":"question5"
+			"q":"Are you sure about the answer above? :o",
+            "y":24,
+            "n":0
 		}
 		]
 	},
@@ -29,19 +38,29 @@
         "result-url":"./results/2",
         "questions":[
         {
-            "q":"question1"
+            "q":"question1",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question2"
+            "q":"question2",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question3"
+            "q":"question3",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question4"
+            "q":"question4",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question5"
+            "q":"question5",
+            "y":0,
+            "n":0
         }
         ]
     },
@@ -51,19 +70,29 @@
         "result-url":"./results/3",
         "questions":[
         {
-            "q":"question1"
+            "q":"question1",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question2"
+            "q":"question2",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question3"
+            "q":"question3",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question4"
+            "q":"question4",
+            "y":0,
+            "n":0
         },
         {
-            "q":"question5"
+            "q":"question5",
+            "y":0,
+            "n":0
         }
         ]
     },    
@@ -73,19 +102,29 @@
         "result-url":"./results/4",
 		"questions":[
 		{
-			"q":"question1"
+			"q":"question1",
+            "y":0,
+            "n":0
 		},
 		{
-			"q":"question2"
+			"q":"question2",
+            "y":0,
+            "n":0
 		},
 		{
-			"q":"question3"
+			"q":"question3",
+            "y":0,
+            "n":0
 		},
 		{
-			"q":"question4"
+			"q":"question4",
+            "y":0,
+            "n":0
 		},
 		{
-			"q":"question5"
+			"q":"question5",
+            "y":0,
+            "n":0
 		}
         ]
 	}
