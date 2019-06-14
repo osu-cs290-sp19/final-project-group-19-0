@@ -38,114 +38,151 @@
 		]
 	},
     {
-        "title":"Survey 2",
+        "title":"Movie Survey",
         "url":"./2",
         "result-url":"./results/2",
         "questions":[
         {
             "qID":"1",
-            "q":"question1",
-            "y":0,
-            "n":0
+            "q":"Have you seen the Avengers?",
+            "y":52,
+            "n":73
         },
         {
             "qID":"2",
-            "q":"question2",
-            "y":0,
-            "n":0
+            "q":"Do you like Will Ferrell movies?",
+            "y":34,
+            "n":65
         },
         {
             "qID":"3",
-            "q":"question3",
-            "y":0,
-            "n":0
+            "q":"Do you prefer movies over TV shows?",
+            "y":44,
+            "n":67
         },
         {
             "qID":"4",
-            "q":"question4",
-            "y":0,
-            "n":0
+            "q":"Have you seen Star Trek?",
+            "y":52,
+            "n":11
         },
         {
             "qID":"5",
-            "q":"question5",
-            "y":0,
-            "n":0
+            "q":"Have you seen a long movie?",
+            "y":50,
+            "n":61
         }
         ]
     },
     {
-        "title":"Survey 3",
+        "title":"Book Survey",
         "url":"./3",
         "result-url":"./results/3",
         "questions":[
         {
             "qID":"1",
-            "q":"question1",
-            "y":0,
-            "n":0
+            "q":"Have you read Harry Potter?",
+            "y":32,
+            "n":80
         },
         {
             "qID":"2",
-            "q":"question2",
-            "y":0,
-            "n":0
+            "q":"What is your favorite Harry Potter book?",
+            "y":63,
+            "n":37
         },
         {
             "qID":"3",
-            "q":"question3",
-            "y":0,
-            "n":0
+            "q":"Are you currently reading anything?",
+            "y":3,
+            "n":90
         },
         {
             "qID":"4",
-            "q":"question4",
-            "y":0,
-            "n":0
+            "q":"Do you have a special bookmar?",
+            "y":33,
+            "n":53
         },
         {
             "qID":"5",
-            "q":"question5",
-            "y":0,
+            "q":"Have you read a long book?",
+            "y":100,
             "n":0
         }
         ]
     },    
 	{
-		"title":"Survey 4",
+		"title":"Restaurant Survey",
         "url":"./4",
         "result-url":"./results/4",
 		"questions":[
 		{
             "qID":"1",
-			"q":"question1",
-            "y":0,
-            "n":0
+			"q":"Do you like fast food?",
+            "y":38,
+            "n":82
 		},
 		{
             "qID":"2",
-			"q":"question2",
-            "y":0,
-            "n":0
+			"q":"Do you eat fast food often?",
+            "y":40,
+            "n":81
 		},
 		{
             "qID":"3",
-			"q":"question3",
-            "y":0,
-            "n":0
+			"q":"Have you ever had expensive food?",
+            "y":9,
+            "n":43
 		},
 		{
             "qID":"4",
-			"q":"question4",
-            "y":0,
+			"q":"Do you like cheese?",
+            "y":100,
             "n":0
 		},
 		{
             "qID":"5",
-			"q":"question5",
-            "y":0,
-            "n":0
+			"q":"Have you every played pokemon?",
+            "y":65,
+            "n":70
 		}
         ]
-	}
+	},
+    {
+        "title":"Music Survey",
+        "url":"./5",
+        "result-url":"./results/5",
+        "questions":[
+        {
+            "qID":"1",
+            "q":"Do you listen to the radio?",
+            "y":38,
+            "n":82
+        },
+        {
+            "qID":"2",
+            "q":"Apple Music is better than spotify.",
+            "y":1000,
+            "n":0
+        },
+        {
+            "qID":"3",
+            "q":"Can you remember the avengers theme from memory?",
+            "y":9,
+            "n":43
+        },
+        {
+            "qID":"4",
+            "q":"Have you taken Comm 114?",
+            "y":100,
+            "n":0
+        },
+        {
+            "qID":"5",
+            "q":"Do you play an instrument?",
+            "y":65,
+            "n":70
+        }
+        ]
+    }
 ]}
