@@ -4,7 +4,9 @@
         "url":"./1",
 		"questions":[
 		{
-			"q":"question1"
+			"q":"question1",
+            "y":52,
+            "n":63
 		},
 		{
 			"q":"question2"

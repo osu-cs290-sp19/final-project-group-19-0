@@ -9,12 +9,14 @@
 			    <p class="question-text">
         			{{q}}
         		</p>
+        		<div class="options-container">
         		<p class="options">
-        		<input type="radio" name="Q1" value=1>YES
+        		<input type="radio" name={{q}} value=1>YES
         		</p>
         		<p class"options">
-                <input type="radio" name="Q1" value=1>NO
+                <input type="radio" name={{q}} value=2>NO
                 </p>
+                </div>
 			{{/each}}
 		</div>
 	</article>
